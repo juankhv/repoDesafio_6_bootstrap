@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Mi CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Aptitude</title>
+  </head>
+  
+  <body>
+    <!-- Inicia Nav -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-gray">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html">
+                <img src="img/logoWebHeader.png" alt="Logo Aptitude">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" id="link" aria-current="page" href="./somos-difrentes.html">Somos diferentes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="link"  href="./como-funciona.html">¿Cómo funciona?</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="link"  href="./registrate.html">Regístrate</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="link"  href="./contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+    </nav>
+    <!-- Ends Nav -->
+
+     <!-- Inicia Main -->
+     <main class= "container-fluid" id="pageRegistro">
+        <!-- Inicia Row -->
+        <h1 class="text-center">Regístrate</h1>
+        <div class="row">
+            <article class="col-4 m-auto mb-3" id="formRegistro">
+                <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">Nunca compartiremos tu email con alguien.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputNombre" class="form-label">Nombre</label>
+                      <input type="text" class="form-control" id="exampleInputNombre">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputApellido" class="form-label">Apellido</label>
+                        <input type="text" class="form-control" id="exampleInputApellido">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Al registrarte, aceptas nuestras Condiciones de uso y Política de privacidad</label>
+                    </div>
+                    <button type="submit" class="btn btn-design">CREAR CUENTA</button>
+                    <p>¿Ya tienes cuenta?<a href="#" class="link"> Iniciar sesión </a></p>
+                  </form>
+            </article>
+        </div>
+        <!-- Ends Row -->
+    </main>
+     <!-- Ends Main -->
+
+    <!-- Inicia footer -->
+    <footer class="container-fluid">
+        <div class="row p-5 bg-footer text-white">
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <a href="#"><img src="img/logofooter.png" alt="Logo Aptitude footer"></a>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3" id="politicas">
+                <h3 class="mb-3">Menú</h3>
+                <div class="mb-2">
+                    <p><a href="#">Términos y Condiciones</a></p>
+                </div>
+                <div>
+                    <p><a href="#">Política de Privacidad</a></p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <h3 class="mb-3">Siguenos</h3>
+                <div class= "d-flex" id="redes">
+                    <div class="me-4"><a href= "https://www.facebook.com" target="_blank" class="fa fa-facebook"></a></div>
+                    <div class="me-4"><a href= "https://www.instagram.com" target="_blank" class="fa fa-instagram"></a></div>
+                    <div><a href="https://www.linkedin.com" target="_blank" class="fa fa-linkedin"></a></div>
+                </div>
+            </div>
+            <div class="col-xs-12  text-end">
+                <small>&copy; 2022 <b>Aptitude.</b> - Todo los derechos reservados</small>
+            </div>
+        </div>
+        
+    </footer>
+    <!-- Ends footer -->
+
+     <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   
+</body>
+
+</html>

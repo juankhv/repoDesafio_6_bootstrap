@@ -1,0 +1,167 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
+    
+/* *{ border: 1px black solid } */
+
+/* Normalize */
+
+/* *::after,
+*::before,
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+:root{
+
+    /* Colors */
+    --primary-1:  black;
+    --primary-2: white;
+    --alternative-1: #20c997;
+    --alternative-2: rgba(248,249,250); 
+    --alternative-3: #dee2e6;
+    --text-color: #2B2B2B;
+    --shadow:#0000001c;
+    --hover-botones:aqua;
+    --footer: rgb(61, 59, 59);
+
+    /* Font-sizes */
+    --text-large: 3rem;
+    --text-medium: 2.5rem;
+    --text-small: 2rem;
+    --text-xsmall: 1.2rem;
+    --text-xxsmall:1rem;
+
+    /* Spacing */
+    --spacing-xxlarge: 10rem;
+    --spacing-xlarge: 8rem;
+    --spacing-large: 6rem;
+    --spacing-medium: 3.5rem;
+    --spacing-small: 2rem;
+    --spacing-xsmall: 1rem;
+}
+
+/* html{
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
+    
+} */
+
+body{
+    color: var(--text-color);
+    
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-size: var(--text-medium);
+    color: var(--primary-1);
+
+}
+    
+h1,h2,h3{
+    text-transform: uppercase;
+
+}
+
+    
+h2{
+    font-size: var(--text-small);
+}
+
+h3{
+    font-size: var(--text-xsmall);
+}
+    
+
+p {
+    font-size: var(--text-xxsmall);
+  
+}
+/* Clases de fondos */
+.linear-gradient{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(8,237,27,1) 0%, rgba(0,212,255,1) 100%);
+}
+.bg-gray{
+    background-color: var(--alternative-3);
+}
+
+.bg-footer{
+    background-color: var(--footer)
+}
+
+
+/* =========================Nav-Bar=========================== */
+
+
+.nav-item{
+    font-size: var(--text-xsmall);
+    margin: var(--spacing-xsmall);
+}
+
+
+#link:hover {
+    color: var(--alternative-1);
+
+}
+
+/* =========================Main=========================== */
+
+
+.btn-design{
+    background-color: var(--alternative-1);
+    color: var(--primary-2); 
+}
+
+/* =========================Footer=========================== */
+
+#politicas a{
+    color: var(--primary-2);
+    text-decoration: none;
+    
+}
+
+#politicas a:hover{
+    color: var(--alternative-1);
+}
+
+
+#redes a{
+    font-size: var(--text-xsmall);
+    text-decoration: none;
+    color: var(--primary-2);
+    transition: all .4s ease-in-out;
+}
+
+#redes a:hover{
+    transform: scale(1.2);
+    color: var(--hover-botones);
+}
+
+/* =========================Page Registro=========================== */
+
+#pageRegistro{
+    background-image: url(../img/bgRegistro.jpg);
+    background-size: cover;
+   
+}
+
+#formRegistro form{
+ 
+    box-shadow: 0 5px 40px var(--shadow);
+    background-color: var(--alternative-2);
+    border-radius: 1rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
